@@ -1,6 +1,8 @@
 body {
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
     margin: 0;
 }
 
@@ -8,7 +10,7 @@ body {
     color: black;
     font-size: 20px;
 }
-  
+
 .box {
     border: 1px solid black;
     width: 300px;
@@ -17,20 +19,21 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
-  
+
 .input {
     margin-bottom: 20px;
 }
-  
+
 .check {
     background-color: blue;
     color: white;
     padding: 10px 15px;
     border-radius: 2px;
 }
-  
+
 .check:hover {
     transform: scale(1.1);
 }
+
